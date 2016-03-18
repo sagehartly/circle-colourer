@@ -1,5 +1,5 @@
 var $input = $('colour-input')
 
-$('form').on('submit', function (e) {
-  
+$('form').on('change', function (e) {
+  $input.css('background-color')
 }
